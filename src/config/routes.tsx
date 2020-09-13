@@ -5,6 +5,7 @@ import {
   PaperClipOutlined,
   InfoOutlined,
   FilePdfOutlined,
+  FolderOutlined
 } from "@ant-design/icons"
 import React from "react"
 
@@ -70,6 +71,11 @@ const basicRoutes: Array<Route> = [
         name: "v16.13",
       },
     ],
+  },
+  {
+    icon: <FolderOutlined />,
+    key: "tab",
+    name: "tab",
   },
 ]
 

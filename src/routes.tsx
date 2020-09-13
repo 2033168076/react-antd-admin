@@ -41,6 +41,10 @@ const routes: Array<RouteConfig> = [
     path: "/version/:version",
     component: loadable(() => import("pages/version"), options),
   },
+  {
+    path: "/tab",
+    component: loadable(() => import("pages/tab"), options),
+  },
 ]
 
 export default routes
